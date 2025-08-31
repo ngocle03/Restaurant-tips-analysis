@@ -5,7 +5,7 @@ This project uses the **restaurant tips dataset** to practice creating compositi
 
 ## 📊 Dataset  
 - **Source**: https://raw.githubusercontent.com/RusAbk/sca_datasets/main/tips.csv
-- **Description**: It contains information on restaurant bills, including:  
+- **Description**: The dataset consists of information from 244 restaurant bills, collected in the US in 1987. It contains idetails about the tips given to restaurant staff, including:  
   - `total_bill`: Total bill amount (USD)  
   - `tip`: Tip amount (USD)  
   - `sex`: Gender of the customer (Male/Female)  

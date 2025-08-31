@@ -1,9 +1,10 @@
 # 🍽️ Restaurant Tips Analysis  
 
 ## 📖 Project Description  
-This project explores restaurant tipping behavior using the **Restaurant Tips dataset**.  
-The analysis investigates how different factors such as day, time, gender, and group size affect tipping patterns.  
-Visualizations and statistical summaries are used to uncover insights about customer behavior.  
+This project aims to use the **restaurant tips dataset** to practice creating composition plots and visualizations.  
+We will examine the relationship between different variables and the tips given.  
+
+The dataset consists of information from **244 restaurant bills**, collected in the **US in 1987**. It includes details about the tips given to restaurant staff, such as the total bill, tip amount, gender of the person paying, smoking status, day of the week, time of day, and party size.   
 
 ## 📊 Dataset  
 - **Source**: https://raw.githubusercontent.com/RusAbk/sca_datasets/main/tips.csv
@@ -23,8 +24,8 @@ df = pd.read_csv('https://raw.githubusercontent.com/RusAbk/sca_datasets/main/tip
 
 ## 🎯 Goals  
 The main objectives of this project are:  
-- To analyze how **tips vary across different categories** such as gender, time of day, day of week, and group size.  
-- To explore the relationship between **total bill and tip percentage**.  
+- To analyze how **tips vary across different categories** such as gender, time of day, day of week, and whether the customer is smoker.  
+- To explore the relationship between **total bill and tip percentage**. 
 - To visualize patterns and trends in customer tipping behavior.
 
 ## 📈 Results & Insights  

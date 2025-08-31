@@ -58,11 +58,4 @@ The main objectives of this project are:
 
 ## 📑 Notebook
 For full analysis, visualizations, and code:  
-➡️ See the Jupyter Notebook: [Restaurant tips analysis.ipynb](./Restaurant%20tips%20analysis.ipynb)  
-
-You can also jump to specific sections inside the notebook:  
-- [Overall Tip Distribution](./Restaurant%20tips%20analysis.ipynb#Overall-Tip-Distribution)  
-- [Smokers vs. Non-smokers](./Restaurant%20tips%20analysis.ipynb#Smokers-vs.-Non-smokers)  
-- [Male vs. Female Customers](./Restaurant%20tips%20analysis.ipynb#Male-vs.-Female-Customers)  
-- [Weekdays vs. Weekends](./Restaurant%20tips%20analysis.ipynb#Weekdays-vs.-Weekends)  
-- [Lunch vs. Dinner](./Restaurant%20tips%20analysis.ipynb#Lunch-vs.-Dinner)  
+➡️ See the Jupyter Notebook: [Restaurant tips analysis.ipynb](./Restaurant%20tips%20analysis.ipynb)

@@ -6,16 +6,20 @@ The analysis investigates how different factors such as day, time, gender, and g
 Visualizations and statistical summaries are used to uncover insights about customer behavior.  
 
 ## 📊 Dataset  
-- **Source**: The dataset comes from the `seaborn` library’s built-in dataset collection (`tips`).  
+- **Source**: https://raw.githubusercontent.com/RusAbk/sca_datasets/main/tips.csv
 - **Description**: It contains information on restaurant bills, including:  
   - `total_bill`: Total bill amount (USD)  
   - `tip`: Tip amount (USD)  
-  - `sex`: Gender of the payer (Male/Female)  
-  - `smoker`: Whether the party included smokers  
-  - `day`: Day of the week (Thu, Fri, Sat, Sun)  
+  - `sex`: Gender of the customer (Male/Female)  
+  - `smoker`: Whether the customers are smokers  
+  - `day`: Day of the week
   - `time`: Meal time (Lunch/Dinner)  
-  - `size`: Party size (number of people)  
-- **Access**: The dataset can be directly loaded via seaborn:
+  - `size`: Meal size (number of people)
+- **Access**: The dataset can be accessed:
+```
+import pandas as pd
+df = pd.read_csv('https://raw.githubusercontent.com/RusAbk/sca_datasets/main/tips.csv')
+```
 
 ## 🎯 Goals  
 The main objectives of this project are:  
@@ -28,6 +32,4 @@ The main objectives of this project are:
 - **Gender & Time**: Male customers tend to leave slightly higher tips during dinner compared to lunch, while female customers show more consistent tipping patterns.  
 - **Day of Week**: Tipping is generally higher on weekends (Sat & Sun), reflecting larger dining groups and higher bills.  
 - **Group Size**: Larger parties tend to leave **higher absolute tips** but a **lower tip percentage** compared to smaller groups.  
-- **Visualization Samples**: The notebook includes bar plots, scatter plots, and box plots to illustrate these findings.  
-
-
+- **Visualization Samples**: The notebook includes bar plots, scatter plots, and box plots to illustrate these findings.
